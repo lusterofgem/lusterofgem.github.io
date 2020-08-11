@@ -1,0 +1,89 @@
+body {
+	max-width: 100%;
+	margin: 0px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+div {
+	display: flex;
+}
+
+p {
+	margin: 0px;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+#content {
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#inputBlock {
+	align-items: center;
+	justify-content: center;
+	margin: 5vw;
+}
+
+#inputBlock input {
+	border: 6px solid rgba(150,150,150,1);
+	border-radius: 5%;
+	font-weight: bold;
+	padding-left: 0.5vw;
+	outline: none;
+}
+
+#inputBlock input:focus {
+	border: 6px solid rgba(170,170,170,1);
+}
+
+#inputBlock button {
+	border: 6px solid rgba(200,200,200,1);
+	border-radius: 5%;
+	background-color: rgba(200,200,200,1);
+	font-weight: bold;
+	outline: none;
+}
+
+#inputBlock button:hover {
+	border: 6px solid rgba(180,180,180,1);
+	background-color: rgba(180,180,180,1);
+}
+
+#inputBlock button:active {
+	border: 6px solid rgba(100,100,100,1);
+	background-color: rgba(100,100,100,1);
+}
+
+#missionList {
+	flex-direction: column;
+}
+
+.missionBlock {
+	align-items: center;
+	background-color: gray;
+	font-weight: bold;
+	padding: 1vw;
+	margin-bottom: 1vw;
+}
+
+.missionDeleteText {
+	margin-right: 1vw;
+	background-color: rgba(255,255,255,0);
+	outline: none;
+	border: none;
+}
+
+.missionDeleteText:hover {
+	cursor: pointer;
+}
+.missionInfoText {
+	font-size: 150%;
+}
